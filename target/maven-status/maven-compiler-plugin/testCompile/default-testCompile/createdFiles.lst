@@ -1,0 +1,7 @@
+tests\CreditReportTest.class
+pages\LoginPage.class
+tests\LoginPageTests.class
+pages\HomePage.class
+helper\BrowserFactory.class
+pages\CreditReportPage.class
+pages\MyDashBoardPage.class
