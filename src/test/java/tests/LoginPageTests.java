@@ -7,6 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import pages.HomePage;
@@ -14,11 +17,11 @@ import pages.LoginPage;
 
 public class LoginPageTests {
 
-	WebDriver driver = BrowserFactory.startBrowser("Firefox", "https://www.noddle.co.uk");
+	WebDriver driver= BrowserFactory.startBrowser("Firefox", "https://www.noddle.co.uk");
 	HomePage home_page=PageFactory.initElements(driver, HomePage.class);
 	LoginPage login_page=PageFactory.initElements(driver, LoginPage.class);
 	
-		
+	
 	@Test(priority=3)
 	public void loginPageTest(){
 		home_page.navigateToLoginPage();

@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12998" started-at="2017-06-28T20:04:33Z" finished-at="2017-06-28T20:04:46Z">
+  <suite name="Default suite" duration-ms="5189" started-at="2017-06-29T12:15:22Z" finished-at="2017-06-29T12:15:27Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12998" started-at="2017-06-28T20:04:33Z" finished-at="2017-06-28T20:04:46Z">
+    <test name="Default test" duration-ms="5189" started-at="2017-06-29T12:15:22Z" finished-at="2017-06-29T12:15:27Z">
       <class name="tests.LoginPageTests">
-        <test-method status="PASS" signature="loginPageTest()[pri:3, instance:tests.LoginPageTests@1349883]" name="loginPageTest" duration-ms="1180" started-at="2017-06-28T21:04:42Z" finished-at="2017-06-28T21:04:43Z">
+        <test-method status="PASS" signature="loginPageTest()[pri:3, instance:tests.LoginPageTests@79e4c792]" name="loginPageTest" duration-ms="1422" started-at="2017-06-29T13:15:22Z" finished-at="2017-06-29T13:15:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTest -->
-        <test-method status="PASS" signature="userLoginTest()[pri:4, instance:tests.LoginPageTests@1349883]" name="userLoginTest" duration-ms="1813" started-at="2017-06-28T21:04:43Z" finished-at="2017-06-28T21:04:45Z">
+        <test-method status="PASS" signature="userLoginTest()[pri:4, instance:tests.LoginPageTests@79e4c792]" name="userLoginTest" duration-ms="2499" started-at="2017-06-29T13:15:24Z" finished-at="2017-06-29T13:15:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTests@1349883]" name="tearDown" is-config="true" duration-ms="925" started-at="2017-06-28T21:04:45Z" finished-at="2017-06-28T21:04:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTests@79e4c792]" name="tearDown" is-config="true" duration-ms="1225" started-at="2017-06-29T13:15:26Z" finished-at="2017-06-29T13:15:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginPageTests -->
-      <class name="tests.CreditReportTest">
-        <test-method status="PASS" signature="creditReportTest()[pri:1, instance:tests.CreditReportTest@4b29d1d2]" name="creditReportTest" duration-ms="6006" started-at="2017-06-28T21:04:33Z" finished-at="2017-06-28T21:04:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creditReportTest -->
-        <test-method status="PASS" signature="userLogoutTest()[pri:2, instance:tests.CreditReportTest@4b29d1d2]" name="userLogoutTest" duration-ms="1658" started-at="2017-06-28T21:04:39Z" finished-at="2017-06-28T21:04:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userLogoutTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CreditReportTest@4b29d1d2]" name="tearDown" is-config="true" duration-ms="1353" started-at="2017-06-28T21:04:41Z" finished-at="2017-06-28T21:04:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreditReportTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
