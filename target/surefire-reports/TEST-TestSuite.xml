@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="tests.CreditReportTest" time="6.801" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="54.907" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
@@ -22,8 +22,7 @@
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\KISHOR~1\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
@@ -65,6 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="tests.CreditReportTest" name="creditReportTest" time="5.249"/>
-  <testcase classname="tests.CreditReportTest" name="userLogoutTest" time="1.552"/>
+  <testcase name="creditReportTest" classname="tests.CreditReportTest" time="7.546"/>
+  <testcase name="userLogoutTest" classname="tests.CreditReportTest" time="1.963"/>
+  <testcase name="loginPageTest" classname="tests.LoginPageTests" time="1.528"/>
+  <testcase name="userLoginTest" classname="tests.LoginPageTests" time="2.573"/>
 </testsuite>

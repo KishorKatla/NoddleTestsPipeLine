@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="tests.CreditReportTest" duration-ms="8058" started-at="2017-06-29T12:19:24Z" finished-at="2017-06-29T12:19:32Z">
+  <suite name="Surefire suite" duration-ms="16834" started-at="2017-06-29T12:29:56Z" finished-at="2017-06-29T12:30:13Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="8058" started-at="2017-06-29T12:19:24Z" finished-at="2017-06-29T12:19:32Z">
+    <test name="Surefire test" duration-ms="16834" started-at="2017-06-29T12:29:56Z" finished-at="2017-06-29T12:30:13Z">
+      <class name="tests.LoginPageTests">
+        <test-method status="PASS" signature="loginPageTest()[pri:3, instance:tests.LoginPageTests@1151e434]" name="loginPageTest" duration-ms="1528" started-at="2017-06-29T13:30:08Z" finished-at="2017-06-29T13:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="userLoginTest()[pri:4, instance:tests.LoginPageTests@1151e434]" name="userLoginTest" duration-ms="2573" started-at="2017-06-29T13:30:09Z" finished-at="2017-06-29T13:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTests@1151e434]" name="tearDown" is-config="true" duration-ms="1195" started-at="2017-06-29T13:30:12Z" finished-at="2017-06-29T13:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginPageTests -->
       <class name="tests.CreditReportTest">
-        <test-method status="PASS" signature="creditReportTest()[pri:1, instance:tests.CreditReportTest@4b8ee4de]" name="creditReportTest" duration-ms="5245" started-at="2017-06-29T13:19:24Z" finished-at="2017-06-29T13:19:29Z">
+        <test-method status="PASS" signature="creditReportTest()[pri:1, instance:tests.CreditReportTest@1b11171f]" name="creditReportTest" duration-ms="7547" started-at="2017-06-29T13:29:56Z" finished-at="2017-06-29T13:30:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creditReportTest -->
-        <test-method status="PASS" signature="userLogoutTest()[pri:2, instance:tests.CreditReportTest@4b8ee4de]" name="userLogoutTest" duration-ms="1552" started-at="2017-06-29T13:19:29Z" finished-at="2017-06-29T13:19:31Z">
+        <test-method status="PASS" signature="userLogoutTest()[pri:2, instance:tests.CreditReportTest@1b11171f]" name="userLogoutTest" duration-ms="1968" started-at="2017-06-29T13:30:04Z" finished-at="2017-06-29T13:30:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogoutTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CreditReportTest@4b8ee4de]" name="tearDown" is-config="true" duration-ms="1212" started-at="2017-06-29T13:19:31Z" finished-at="2017-06-29T13:19:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CreditReportTest@1b11171f]" name="tearDown" is-config="true" duration-ms="1991" started-at="2017-06-29T13:30:06Z" finished-at="2017-06-29T13:30:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreditReportTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- tests.CreditReportTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
