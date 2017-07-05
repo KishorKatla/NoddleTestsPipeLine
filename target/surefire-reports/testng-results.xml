@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="tests.CreditReportTest" duration-ms="8414" started-at="2017-07-03T20:55:00Z" finished-at="2017-07-03T20:55:09Z">
+  <suite name="tests.CreditReportTest" duration-ms="27789" started-at="2017-07-05T19:52:23Z" finished-at="2017-07-05T19:52:51Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="8414" started-at="2017-07-03T20:55:00Z" finished-at="2017-07-03T20:55:09Z">
+    <test name="Command line test" duration-ms="27789" started-at="2017-07-05T19:52:23Z" finished-at="2017-07-05T19:52:51Z">
       <class name="tests.CreditReportTest">
-        <test-method status="PASS" signature="creditReportTest()[pri:1, instance:tests.CreditReportTest@4b8ee4de]" name="creditReportTest" duration-ms="5315" started-at="2017-07-03T21:55:00Z" finished-at="2017-07-03T21:55:06Z">
+        <test-method status="PASS" signature="creditReportTest()[pri:1, instance:tests.CreditReportTest@4b8ee4de]" name="creditReportTest" duration-ms="4640" started-at="2017-07-05T20:52:23Z" finished-at="2017-07-05T20:52:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creditReportTest -->
-        <test-method status="PASS" signature="userLogoutTest()[pri:2, instance:tests.CreditReportTest@4b8ee4de]" name="userLogoutTest" duration-ms="1359" started-at="2017-07-03T21:55:06Z" finished-at="2017-07-03T21:55:07Z">
+        <test-method status="PASS" signature="userLogoutTest()[pri:2, instance:tests.CreditReportTest@4b8ee4de]" name="userLogoutTest" duration-ms="1534" started-at="2017-07-05T20:52:28Z" finished-at="2017-07-05T20:52:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogoutTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CreditReportTest@4b8ee4de]" name="tearDown" is-config="true" duration-ms="1701" started-at="2017-07-03T21:55:07Z" finished-at="2017-07-03T21:55:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CreditReportTest@4b8ee4de]" name="tearDown" is-config="true" duration-ms="21589" started-at="2017-07-05T20:52:29Z" finished-at="2017-07-05T20:52:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
